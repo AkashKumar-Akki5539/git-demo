@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>Welcome to GitHub Pages Demo 🚀</h1>
+      <p>
+        This is a simple React project deployed on <strong>GitHub Pages</strong>.
+      </p>
+      <p>Modify this page and redeploy to see changes!</p>
     </div>
   );
-}
+};
 
 export default App;
