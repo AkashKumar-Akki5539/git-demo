@@ -10,6 +10,7 @@ const App = () => {
       </p>
       <p>Modify this page and redeploy to see changes!</p>
       <p>Modification-1</p>
+      <p>Modification-2 for Auto Deployment</p>
     </div>
   );
 };
