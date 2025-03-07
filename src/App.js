@@ -12,6 +12,7 @@ const App = () => {
       <p>Modification-1</p>
       <p>Modification-2 for Auto Deployment</p>
       <p>Modification-3</p>
+      <p>Auto Deployment on Push</p>
     </div>
   );
 };
